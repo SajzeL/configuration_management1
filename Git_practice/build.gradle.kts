@@ -19,3 +19,7 @@ tasks.test {
 kotlin {
     jvmToolchain(24)
 }
+
+tasks.withType<JavaExec> {
+    jvmArgs("-Dfile.encoding=UTF-8")
+}
