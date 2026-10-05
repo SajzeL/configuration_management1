@@ -2,7 +2,7 @@
 .gradle/
 build/
 
-# IntelliJ IDEA (настройки редактора кода — защита от правила Г5)
+# IntelliJ IDEA (настройки редактора кода)
 .idea/
 *.iml
 *.iws
